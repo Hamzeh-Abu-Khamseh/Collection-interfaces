@@ -8,4 +8,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ICollection Implementation\ICollection Implementation.csproj" />
+    <ProjectReference Include="..\IComparable Implementation\IComparable Implementation.csproj" />
+    <ProjectReference Include="..\IDictionary Implementation\IDictionary Implementation.csproj" />
+    <ProjectReference Include="..\IList Implementation\IList Implementation.csproj" />
+  </ItemGroup>
+
 </Project>
